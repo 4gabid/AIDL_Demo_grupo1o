@@ -4,6 +4,7 @@ import android.app.Service;
 import android.content.Intent;
 import android.os.IBinder;
 import android.os.RemoteException;
+import android.util.Log;
 
 public class DemoService extends Service {
 
@@ -22,13 +23,14 @@ public class DemoService extends Service {
         @Override
         public void mandar_mensagem(String mensagem) throws RemoteException {
 
+            Log.d(  "Demo Service", "Message sent: "+ mensagem);
         }
     };
 
 
     @Override
     public IBinder onBind(Intent intent) {
-        // TODO: Return the communication channel to the service.
-        throw new UnsupportedOperationException("Not yet implemented");
+       return binder;
+
     }
 }
