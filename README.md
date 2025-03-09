@@ -37,3 +37,12 @@ Registry:
   i18n.locale=
 Current Desktop: ubuntu:GNOME
 
+
+
+AOSP – GRUPO 10: 
+Cleberson dos Santos Machado
+Gabrielle Desireé Cardoso de Souza
+Manoel Felipe Costa Almeida Fernandes
+Nainde Cardoso Lago Pinheiro
+
+
